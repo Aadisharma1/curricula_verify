@@ -1,0 +1,14 @@
+{
+  "seed": 7,
+  "level_sizes": {"1": 300, "2": 300, "3": 300, "4": 300},
+  "eval_fraction": 0.3,
+  "gate_threshold_f1": 0.6,
+  "model": {
+    "tfidf_max_features": 4000,
+    "C": 1.0
+  },
+  "trajectories": {
+    "enabled": true,
+    "max_augment_per_level": 100
+  }
+}

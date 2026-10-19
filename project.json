@@ -1,0 +1,20 @@
+{
+  "name": "curricula_verify",
+  "description": "Safety verifier trained through a 4-level curriculum with self-correction trajectory augmentation",
+  "language": "python",
+  "checks": [
+    {
+      "name": "unit_tests",
+      "cmd": "python -m pytest tests -q",
+      "timeout_sec": 900
+    },
+    {
+      "name": "smoke_test",
+      "cmd": "python scripts/smoke_test.py",
+      "timeout_sec": 600
+    }
+  ],
+  "docker": {
+    "enabled": true
+  }
+}

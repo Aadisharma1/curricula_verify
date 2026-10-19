@@ -1,0 +1,12 @@
+{
+  "categories": {
+    "benign": 0,
+    "personal_data": 3,
+    "social_engineering": 3,
+    "injection": 3,
+    "jailbreak_roleplay": 3,
+    "harmful_instructions": 4,
+    "multi_turn_escalation": 4
+  },
+  "severity_scale": {"min": 0, "max": 4}
+}
